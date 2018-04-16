@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.label{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.drag-text {
+  margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+  .label-position {
+    font-size: 15px;
+  }
+}
+
+.x-label {
+  background-color: #954812;
+}
+
+.y-label {
+  background-color: #451A76;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.col-xs-12 {
+  padding-left: 0px;
+}
