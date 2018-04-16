@@ -16,12 +16,19 @@
 @media (max-width: 600px) {
   .box {
     height: 200px;
+    overflow: hidden;
   }
 }
 
 .box-auxiliary {
   height: 600px;
   padding: 0;
+}
+
+@media (max-width: 600px) {
+  .box-auxiliary {
+    height: 200px;
+  }
 }
 
 .box-child {
