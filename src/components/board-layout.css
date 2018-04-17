@@ -9,13 +9,13 @@
   width: 100%;
   position: relative;
   padding: 0;
-  margin-left: 5%;
+  margin: 14px;
   overflow: auto;
 }
 
 @media (max-width: 600px) {
   .box {
-    height: 205px;
+    height: 300px;
     overflow: hidden;
   }
 }
@@ -27,7 +27,7 @@
 
 @media (max-width: 600px) {
   .box-auxiliary {
-    height: 200px;
+    height: 300px;
   }
 }
 

@@ -41,10 +41,10 @@ class Dragger extends Component {
       <div className="App">
        <Row>
        <Col xs={12}>
-          <Col xs={7}>
+          <Col xs={12} sm={7}>
             <Board {...dragHandlers} onDrag={this.handleDrag} />
           </Col>
-          <Col xs={5}>
+          <Col xs={12} sm={5}>
             <Position {...this.state.deltaPosition} />
           </Col>
         </Col>
