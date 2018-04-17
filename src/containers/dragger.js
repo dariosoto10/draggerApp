@@ -42,7 +42,7 @@ class Dragger extends Component {
        <Row>
        <Col xs={12}>
           <Col xs={7}>
-            <Board {...dragHandlers}  onDrag={this.handleDrag} />
+            <Board {...dragHandlers} onDrag={this.handleDrag} />
           </Col>
           <Col xs={5}>
             <Position {...this.state.deltaPosition} />
