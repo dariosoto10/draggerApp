@@ -1,7 +1,6 @@
 import React from 'react';
-import '../App.css';
 
-function header() {
+function Header() {
   return (
     <header className="App App-header">
       <h1 className="App-title">Welcome to Dragger</h1>
@@ -10,4 +9,4 @@ function header() {
   )
 }
 
-export default header;
+export default Header;

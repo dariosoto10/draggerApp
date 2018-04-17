@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
 import Board from '../components/board-layout';
 import Position from '../components/position-layout';
 import { Col, Row } from 'react-bootstrap'
@@ -40,14 +39,14 @@ class Dragger extends Component {
     return (
       <div className="App">
        <Row>
-       <Col xs={12}>
-          <Col xs={12} sm={7}>
-            <Board {...dragHandlers} onDrag={this.handleDrag} />
+        <Col xs={12}>
+            <Col xs={12} sm={7}>
+              <Board {...dragHandlers} onDrag={this.handleDrag} />
+            </Col>
+            <Col xs={12} sm={5}>
+              <Position {...this.state.deltaPosition} />
+            </Col>
           </Col>
-          <Col xs={12} sm={5}>
-            <Position {...this.state.deltaPosition} />
-          </Col>
-        </Col>
         </Row>
       </div>
     );

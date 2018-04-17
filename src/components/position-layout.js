@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import { Label } from 'react-bootstrap';
 
 function position(props) {
