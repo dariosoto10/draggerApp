@@ -1,6 +1,6 @@
 .box {
   background: #fff;
-  border: 2px solid #451A76;
+  border: 3px solid #451A76;
   border-radius: 5px;
   margin: 10px;
   padding: 5px;
@@ -33,7 +33,7 @@
 
 .box-child {
   background: #fff;
-  border: 2px solid #954812;
+  border: 3px solid #954812;
   border-radius: 8px;
   width: 80px;
   height: 80px;

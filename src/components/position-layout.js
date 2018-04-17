@@ -3,7 +3,7 @@ import '../App.css';
 import { Label } from 'react-bootstrap';
 
 function position(props) {
-  const deltaPosition = {...props};
+  const deltaPosition  = {...props};
 
   return (
     <div>
@@ -11,7 +11,7 @@ function position(props) {
         Current Position
         <br />
         X<Label className="x-label">{deltaPosition.x.toFixed(0)}</Label>
-        Y<Label className="y-label">{deltaPosition.x.toFixed(0)}</Label>
+        Y<Label className="y-label">{deltaPosition.y.toFixed(0)}</Label>
       </h3>
     </div>
   )

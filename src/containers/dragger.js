@@ -11,16 +11,17 @@ class Dragger extends Component {
       activeDrags: 0,      
       deltaPosition: {
         x: 0, y: 0
-      }
-    }
+      },
+      dragging: false
+    } 
   }
 
   onStart = () => {
-    this.setState({activeDrags: this.state.activeDrags + 1});
+    this.setState({activeDrags: this.state.activeDrags + 1, dragging: true});
   }
 
   onStop = () => {
-    this.setState({activeDrags: this.state.activeDrags - 1});
+    this.setState({activeDrags: this.state.activeDrags - 1, dragging: false});
   }
 
   handleDrag = (e, ui) => {
@@ -34,7 +35,7 @@ class Dragger extends Component {
   }
 
   render() {
-    const dragHandlers = {onStart: this.onStart, onStop: this.onStop};
+    const dragHandlers = {onStart: this.onStart, onStop: this.onStop, dragging: this.state.dragging};
 
     return (
       <div className="App">

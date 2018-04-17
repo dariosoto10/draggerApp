@@ -7,10 +7,10 @@ function board(props) {
   const dragHandlers = {...props};
 
   return (
-    <div className="box">
+    <div className="box" style={{borderColor: dragHandlers.dragging ? '#954812' : '#451A76'}}>
       <div className="box-auxiliary">
         <Draggable bounds="parent" {...dragHandlers}>
-          <div className="box-child">
+          <div className="box-child" style={{borderColor: dragHandlers.dragging ? '#451A76' : '#954812'}}>
             <p className="drag-text">
               Drag me
             </p>
