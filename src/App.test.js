@@ -10,6 +10,6 @@ it('App renders without crashing', () => {
 });
 
 it('App should has Header and Dragger component', () => {
-  expect(wrapper.find('Header')).toBeTruthy()
-  expect(wrapper.find('Dragger')).toBeTruthy()
+  expect(wrapper.find('Header')).toBeTruthy();
+  expect(wrapper.find('Dragger')).toBeTruthy();
 });
